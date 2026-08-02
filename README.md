@@ -1,51 +1,31 @@
-<header>
+# WalkerCode — Tecnologia para o Conhecimento
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+Site institucional da **WalkerCode**, consultoria e desenvolvimento de software de alta performance com Inteligência Artificial para educação, liderada por **Walker Araújo Ataide**.
 
-# GitHub Pages
+🌐 **https://walkerataide.github.io**
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+## Estrutura
 
-</header>
+| Caminho | Descrição |
+| --- | --- |
+| `index.html` | Página principal: serviços, BNCC Computacional, portfólio, sobre e contato |
+| `curriculo.html` | Currículo profissional de Walker Araújo Ataide |
+| `blog/` | Blog com artigos sobre IA na educação e BNCC Computacional |
+| `assets/` | CSS, JavaScript e imagens (logo SVG, favicon, imagem de compartilhamento) |
+| `sitemap.xml`, `robots.txt` | SEO |
 
-<!--
-  <<< Author notes: Step 3 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: previous version checked the homepage content was not empty.
--->
+## Tecnologia
 
-## Step 3: Customize your homepage
+Site 100% estático (HTML + CSS + JS puros), sem dependências externas — carregamento rápido e hospedagem gratuita no GitHub Pages. O arquivo `.nojekyll` desativa o processamento Jekyll.
 
-_Nice work setting the theme! :sparkles:_
+## Como publicar alterações
 
-You can customize your homepage by adding content to either an `index.md` file or the `README.md` file. GitHub Pages first looks for an `index.md` file. Your repository has an `index.md` file so we can update it to include your personalized content.
+1. Edite os arquivos HTML/CSS diretamente.
+2. Ao criar um novo artigo, copie um dos arquivos de `blog/`, ajuste título, metadados (`<title>`, `description`, Open Graph, JSON-LD) e conteúdo, e adicione o link em `blog/index.html`, na seção Blog da home e no `sitemap.xml`.
+3. Faça commit e push para a branch `main` — o GitHub Pages publica automaticamente.
 
-### :keyboard: Activity: Create your homepage
+## Identidade visual
 
-1. Browse to the `index.md` file in the `my-pages` branch.
-1. In the upper right corner, open the file editor.
-1. Type the content you want on your homepage. You can use Markdown formatting on this page.
-1. (optional) You can also modify `title:` or just ignore it for now. We'll discuss it in the next step.
-1. Commit your changes to the `my-pages` branch.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+- Dark mode nativo (`#020617` / slate-950)
+- Acentos: Azul Tecnológico `#2563EB` e Teal `#0D9488` / `#14B8A6`
+- Slogan: *Tecnologia para o Conhecimento*
